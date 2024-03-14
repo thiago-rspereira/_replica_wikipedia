@@ -1,0 +1,109 @@
+/* Reset de estilos */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #b0bfc5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos para a logo */
+.logo {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para o contêiner de busca */
+.search-container {
+    margin-left: 10px;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para listas não ordenadas */
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+/* Estilos para links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Estilos para a barra */
+.bar {
+    background-color: #44556f;
+    padding: 5px;
+    border-top: solid 5px #cdcdcd;
+    border-bottom: solid 5px #cdcdcd;
+}
+
+/* Estilos para o conteúdo */
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #44556f;
+    color:whitesmoke;
+}
+
+/* Estilos para os ancoramentos */
+.anchors {
+    border-left: solid 5px #44556f;
+    padding-left: 15px;
+}
+
+/* Estilos para a barra lateral */
+.sidebar {
+    border-right: solid 5px #44556f;
+    padding-left: 50px;
+}
+
+/* Estilos para figuras */
+figure {
+    text-align: center;
+}
+
+/* Estilos para legendas */
+figcaption {
+    text-align: center;
+}
+
+/* Estilos para o contêiner */
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilos para imagens no contêiner */
+.container img {
+    width: 300px; /* ajuste conforme necessário */
+    height: auto; /* para manter a proporção */
+    margin-right: 10px; /* espaçamento entre as imagens */
+}
